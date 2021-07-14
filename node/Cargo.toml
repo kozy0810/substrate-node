@@ -54,6 +54,9 @@ substrate-frame-rpc-system = {version = '3.0.0', git = 'https://github.com/parit
 # local dependencies
 node-template-runtime = {version = '3.0.0', path = '../runtime'}
 
+pallet-contracts = {version = '3.0.0', git = 'https://github.com/paritytech/substrate.git', tag = 'monthly-2021-05'}
+pallet-contracts-rpc = {version = '3.0.0', git = 'https://github.com/paritytech/substrate.git', tag = 'monthly-2021-05'}
+
 [features]
 default = []
 runtime-benchmarks = ['node-template-runtime/runtime-benchmarks']
